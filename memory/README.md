@@ -14,3 +14,5 @@ This folder is the implementation log for the FloSelect marketing-page workspace
 - `2026-06-24-plans-section.md` — FloSelect package plans section.
 - `2026-06-24-plan-contact-links.md` — Plan CTA email links.
 - `2026-06-24-hero-image-colour.md` — Hero image colour treatment refinement.
+- `2026-06-24-hero-cta.md` — Hero CTA simplification.
+- `2026-06-24-header-plans-link.md` — Plans navigation link.
