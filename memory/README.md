@@ -16,3 +16,4 @@ This folder is the implementation log for the FloSelect marketing-page workspace
 - `2026-06-24-hero-image-colour.md` — Hero image colour treatment refinement.
 - `2026-06-24-hero-cta.md` — Hero CTA simplification.
 - `2026-06-24-header-plans-link.md` — Plans navigation link.
+- `2026-06-24-card-details-modals.md` — Interactive feature and industry detail modals.
