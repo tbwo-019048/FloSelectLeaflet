@@ -18,3 +18,4 @@ This folder is the implementation log for the FloSelect marketing-page workspace
 - `2026-06-24-header-plans-link.md` — Plans navigation link.
 - `2026-06-24-card-details-modals.md` — Interactive feature and industry detail modals.
 - `2026-06-24-expanded-card-descriptions.md` — Expanded modal descriptions.
+- `2026-06-24-application-images.md` — Supplied fan application images integrated into modals.
