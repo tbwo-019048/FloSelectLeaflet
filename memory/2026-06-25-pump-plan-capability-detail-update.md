@@ -1,0 +1,3 @@
+# 2026-06-25 - Pump plan capability detail update
+
+Updated the Pump Selection Capabilities table. Basic now includes Surface pump selection, Borehole pump selection, and Submersible pump selection. Pro and Custom now include Booster sets, Multistage pump groups, Variable frequency, and Custom filters. Pump table also mirrors the Pro shared features: Projects workspace, Real-time metrics, Further product ranges, and Advanced product imagery. Custom-only rows now include pick-and-choose module configuration, capabilities outside package options, bespoke workflow configuration, and tailored implementation support.

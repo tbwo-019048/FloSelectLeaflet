@@ -10,3 +10,5 @@ Task log for completed implementation work.
 - 2026-06-25: Added Pump Selection alongside Fan Selection in Plans and ticked it across Basic, Pro, and Custom.
 
 - 2026-06-25: Split the Plans capability comparison into side-by-side Fan Selection and Pump Selection tables.
+
+- 2026-06-25: Expanded Pump Selection Capabilities with Basic pump types, Pro/Custom pump features, shared Pro rows, and Custom-only configuration rows.

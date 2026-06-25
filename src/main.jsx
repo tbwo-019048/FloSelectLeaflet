@@ -79,7 +79,7 @@ const plans = [
 ]
 const selectionFamilies = [
   { title: 'Fan Selection', eyebrow: 'AIR MOVEMENT', description: 'Select axial, centrifugal, blower and plenum fans with performance data, curves and report outputs across every plan.', items: ['Axial, centrifugal, blower and plenum ranges', 'Duty point matching and technical outputs', 'Available in Basic, Pro and Custom'] },
-  { title: 'Pump Selection', eyebrow: 'FLUID MOVEMENT', description: 'Offer pump selection alongside fan selection, giving teams a parallel workflow for selecting equipment against duty requirements.', items: ['Pump duty point selection', 'Pump performance data and curves', 'Available in Basic, Pro and Custom'] },
+  { title: 'Pump Selection', eyebrow: 'FLUID MOVEMENT', description: 'Offer pump selection alongside fan selection, giving teams a parallel workflow for selecting equipment against duty requirements.', items: ['Surface, borehole and submersible pump selection', 'Pump performance data and curves', 'Available in Basic, Pro and Custom'] },
 ]
 const fanCapabilities = [
   { name: 'Axial fan selection', basic: true, pro: true, custom: true },
@@ -102,12 +102,25 @@ const fanCapabilities = [
 ]
 const pumpCapabilities = [
   { name: 'Pump selection', basic: true, pro: true, custom: true },
+  { name: 'Surface pump selection', basic: true, pro: true, custom: true },
+  { name: 'Borehole pump selection', basic: true, pro: true, custom: true },
+  { name: 'Submersible pump selection', basic: true, pro: true, custom: true },
   { name: 'Pump duty point matching', basic: true, pro: true, custom: true },
   { name: 'Pump performance curves', basic: true, pro: true, custom: true },
   { name: 'Pump technical data', basic: true, pro: true, custom: true },
   { name: 'Pump report outputs', basic: true, pro: true, custom: true },
-  { name: 'Advanced pump configuration', basic: false, pro: true, custom: true },
-  { name: 'Custom pump modules', basic: false, pro: false, custom: true },
+  { name: 'Booster sets', basic: false, pro: true, custom: true },
+  { name: 'Multistage pump groups', basic: false, pro: true, custom: true },
+  { name: 'Variable frequency', basic: false, pro: true, custom: true },
+  { name: 'Custom filters', basic: false, pro: true, custom: true },
+  { name: 'Projects workspace', basic: false, pro: true, custom: true },
+  { name: 'Real-time metrics', basic: false, pro: true, custom: true },
+  { name: 'Further product ranges', basic: false, pro: true, custom: true },
+  { name: 'Advanced product imagery', basic: false, pro: true, custom: true },
+  { name: 'Pick-and-choose module configuration', basic: false, pro: false, custom: true },
+  { name: 'Capabilities outside package options', basic: false, pro: false, custom: true },
+  { name: 'Bespoke workflow configuration', basic: false, pro: false, custom: true },
+  { name: 'Tailored implementation support', basic: false, pro: false, custom: true },
 ]
 const Availability = ({ active }) => <span aria-label={active ? 'Included' : 'Not included'} style={{ width: 26, height: 26, borderRadius: '50%', display: 'inline-grid', placeItems: 'center', background: active ? '#e8f7df' : '#eef2f0', color: active ? 'var(--color-primary)' : '#9aa6a0', margin: '0 auto' }}>{active ? <Icon name="check" size={16} /> : '—'}</span>
 function CapabilityTable({ title, rows }) { return <div style={{ background: 'var(--color-white)', border: '1px solid #dfe7e2', borderRadius: 12, boxShadow: '0 18px 40px #1836240c', overflowX: 'auto' }}><h3 style={{ color: 'var(--color-dark)', fontSize: 20, letterSpacing: '-.04em', margin: 0, padding: '20px 22px 0' }}>{title}</h3><table style={{ width: '100%', minWidth: 520, borderCollapse: 'collapse' }}><caption style={{ position: 'absolute', width: 1, height: 1, padding: 0, margin: -1, overflow: 'hidden', clip: 'rect(0, 0, 0, 0)', whiteSpace: 'nowrap', border: 0 }}>{title} capability comparison</caption><thead><tr><th scope="col" style={{ textAlign: 'left', padding: '18px 22px', color: 'var(--color-dark)', fontSize: 11, letterSpacing: '.08em', textTransform: 'uppercase', borderBottom: '1px solid #e3ebe6' }}>Capability</th>{plans.map(plan => <th key={plan.id} scope="col" style={{ textAlign: 'center', padding: '18px 14px', color: plan.featured ? 'var(--color-primary)' : 'var(--color-dark)', fontSize: 11, letterSpacing: '.08em', textTransform: 'uppercase', borderBottom: '1px solid #e3ebe6' }}>{plan.name.replace('FloSelect ', '')}</th>)}</tr></thead><tbody>{rows.map((capability, index) => <tr key={capability.name} style={{ background: index % 2 ? '#fbfdfc' : 'white' }}><th scope="row" style={{ textAlign: 'left', padding: '15px 22px', color: '#334252', fontSize: 12, fontWeight: 700, borderBottom: '1px solid #eef3f0' }}>{capability.name}</th>{plans.map(plan => <td key={plan.id} style={{ textAlign: 'center', padding: '13px 14px', borderBottom: '1px solid #eef3f0' }}><Availability active={capability[plan.id]} /></td>)}</tr>)}</tbody></table></div> }
