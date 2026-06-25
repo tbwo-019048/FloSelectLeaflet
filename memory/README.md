@@ -18,3 +18,5 @@ Task log for completed implementation work.
 - 2026-06-25: Added Heat Pump Selection as a contact-only top card and grouped configuration rows at the bottom of Fan and Pump capability tables.
 
 - 2026-06-25: Mapped new src PNG assets to the Platform Capabilities modal images.
+
+- 2026-06-25: Added additional Platform Capability cards, fixed custom Configuration Engine availability, and updated product-neutral hero/metric/CTA copy.
