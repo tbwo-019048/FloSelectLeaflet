@@ -24,3 +24,5 @@ Task log for completed implementation work.
 - 2026-06-25: Replaced fan wording with product wording outside Plans, updated header nav, and added a 3x2 scrolling Platform Capabilities carousel.
 
 - 2026-06-25: Replaced auto-scrolling Platform Capabilities carousel with a manual four-card arrow carousel.
+
+- 2026-06-25: Restructured Plans into selectable product families, selectable plan cards with capacity, and highlighted capability table columns.
