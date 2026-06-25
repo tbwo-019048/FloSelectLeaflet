@@ -8,3 +8,5 @@ Task log for completed implementation work.
 - 2026-06-25: Added Simple fan array/wall calculations, Impeller selection engine, and HVLS selection to the Plans capability matrix.
 
 - 2026-06-25: Added Pump Selection alongside Fan Selection in Plans and ticked it across Basic, Pro, and Custom.
+
+- 2026-06-25: Split the Plans capability comparison into side-by-side Fan Selection and Pump Selection tables.
