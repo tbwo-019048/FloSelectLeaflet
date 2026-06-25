@@ -20,3 +20,5 @@ Task log for completed implementation work.
 - 2026-06-25: Mapped new src PNG assets to the Platform Capabilities modal images.
 
 - 2026-06-25: Added additional Platform Capability cards, fixed custom Configuration Engine availability, and updated product-neutral hero/metric/CTA copy.
+
+- 2026-06-25: Replaced fan wording with product wording outside Plans, updated header nav, and added a 3x2 scrolling Platform Capabilities carousel.

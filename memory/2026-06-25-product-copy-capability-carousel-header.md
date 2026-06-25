@@ -1,0 +1,3 @@
+# 2026-06-25 - Product-neutral copy and capability carousel
+
+Replaced user-facing fan wording with product wording outside the Flexible Platform Options / Plans area. Updated hero trust copy, Platform Capabilities text, workflow steps, Product Applications section, modal category labels, dashboard mockup accessibility/labels, and final CTA heading. Updated header navigation to match the real page anchors: Capabilities, Workflow, Applications, Plans, Demo. Changed Platform Capabilities into a desktop carousel showing six cards at once in a 3-by-2 grid that slowly slides to reveal the next set, with hover/focus pause and reduced-motion support.
