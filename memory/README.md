@@ -12,3 +12,5 @@ Task log for completed implementation work.
 - 2026-06-25: Split the Plans capability comparison into side-by-side Fan Selection and Pump Selection tables.
 
 - 2026-06-25: Expanded Pump Selection Capabilities with Basic pump types, Pro/Custom pump features, shared Pro rows, and Custom-only configuration rows.
+
+- 2026-06-25: Added configuration engine SKU/configuration rows to both Fan and Pump capability tables.
