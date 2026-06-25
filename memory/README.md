@@ -16,3 +16,5 @@ Task log for completed implementation work.
 - 2026-06-25: Added configuration engine SKU/configuration rows to both Fan and Pump capability tables.
 
 - 2026-06-25: Added Heat Pump Selection as a contact-only top card and grouped configuration rows at the bottom of Fan and Pump capability tables.
+
+- 2026-06-25: Mapped new src PNG assets to the Platform Capabilities modal images.
